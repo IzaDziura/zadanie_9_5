@@ -1,8 +1,12 @@
 var count = document.getElementsByClassName('button');
-console.log(count);
+console.log(count.length);
 
 for (i = 0; i < count.length; i++) {
-	count[i].innerText = getElementsByClassName('button');
-	console.log(count);
+	innerText = count[i];
+	console.log(count[i]);
 }
-	
+
+/*for (i = 0; i < count.length; i++) {
+	var array = count[i];
+	console.log(array);
+}*/
